@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1036</accessedResource>
+  <accessDate>2013-11-12 15:34:17.281 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10043</id>
+        <ontologyId>1036</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-04-16 06:55:28.0 PDT</dateCreated>
+        <dateReleased>2019-11-27 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Places Ontology</displayLabel>
+        <description>The Places Ontology is a simple lightweight ontology for describing places of geographic interest.</description>
+        <abbreviation>Place</abbreviation>
+        <format>OWL</format>
+        <contactName>Michael Smethurst, Rob Styles, Tom Scott</contactName>
+        <contactEmail>michael.smethurst@bbc.co.uk</contactEmail>
+        <homepage>http://lov.okfn.org/dataset/lov/details/vocabulary_place.html</homepage>
+        <documentation>http://vocab.org/places/schema.html</documentation>
+        <publication>http://purl.org/ontology/places</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>places-schema.txt</string>
+        </filenames>
+        <filePath>/1036/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

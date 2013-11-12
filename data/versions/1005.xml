@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1005</accessedResource>
+  <accessDate>2013-11-12 15:34:04.997 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10005</id>
+        <ontologyId>1005</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>1.22</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-09-19 00:00:00.0 PDT</dateCreated>
+        <dateReleased>2010-08-04 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>WGS84 Geo Positioning</displayLabel>
+        <description>An RDF &quot;vocabulary&quot; for representing latitude, longitude and altitude information in the WGS84 geodetic reference datum</description>
+        <abbreviation>wgs84_pos</abbreviation>
+        <format>OWL</format>
+        <contactName>Dan Brickley</contactName>
+        <contactEmail>danbri@danbri.org</contactEmail>
+        <homepage>http://www.socop.org</homepage>
+        <documentation>http://www.w3.org/2003/01/geo/</documentation>
+        <publication>http://www.w3.org/2003/01/geo/wgs84_pos#</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>wgs84_pos.owl</string>
+        </filenames>
+        <filePath>/1005/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

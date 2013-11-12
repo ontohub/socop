@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1030</accessedResource>
+  <accessDate>2013-11-12 15:34:15.70 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10031</id>
+        <ontologyId>1030</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>14</userId>
+        <versionNumber>0.1</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2012-09-10 10:23:42.0 PDT</dateCreated>
+        <dateReleased>2001-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NLCD2001</displayLabel>
+        <description>The land cover classification system for National Land Cover Database 2001 (for testing). </description>
+        <abbreviation>NLCD2001</abbreviation>
+        <format>OWL</format>
+        <contactName>Naijun Zhou</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>NLCD2001.owl</string>
+        </filenames>
+        <filePath>/1030/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10032</id>
+        <ontologyId>1030</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>2</internalVersionNumber>
+        <userId>14</userId>
+        <versionNumber>0.1</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2012-09-10 11:08:14.0 PDT</dateCreated>
+        <dateReleased>2001-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NLCD2001</displayLabel>
+        <description>The land cover classification system for National Land Cover Database 2001 (for testing). </description>
+        <abbreviation>NLCD2001</abbreviation>
+        <format>OWL</format>
+        <contactName>Naijun Zhou</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <documentation>http://www.mrlc.gov/mrlc2k_nlcd.asp</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>NLCD2001.owl</string>
+        </filenames>
+        <filePath>/1030/2</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10033</id>
+        <ontologyId>1030</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>3</internalVersionNumber>
+        <userId>14</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-10 12:13:38.0 PDT</dateCreated>
+        <dateReleased>2001-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NLCD2001</displayLabel>
+        <description>The land cover classification system for National Land Cover Database 2001 (for testing). </description>
+        <abbreviation>NLCD2001</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <documentation>http://www.mrlc.gov/mrlc2k_nlcd.asp</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>NLCD2001.owl</string>
+        </filenames>
+        <filePath>/1030/3</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

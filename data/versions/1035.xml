@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1035</accessedResource>
+  <accessDate>2013-11-12 15:34:16.882 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10042</id>
+        <ontologyId>1035</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-04-15 08:26:26.0 PDT</dateCreated>
+        <dateReleased>2009-06-06 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Geography</displayLabel>
+        <description>The Geographis Ontology serves as a sort of extension to existing geographic ontologies.</description>
+        <abbreviation>Geog</abbreviation>
+        <format>OWL</format>
+        <contactName>Ian Jacobi/Gary Berg-Cross</contactName>
+        <contactEmail>jacobi@csail.mit.edu</contactEmail>
+        <documentation>http://lov.okfn.org/dataset/lov/details/vocabulary_geos.html</documentation>
+        <publication>http://data.semanticweb.org/organization/csail-mit</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>geography.txt</string>
+        </filenames>
+        <filePath>/1035/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

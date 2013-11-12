@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies</accessedResource>
+  <accessDate>2013-11-12 15:34:02.96 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10003</id>
+        <ontologyId>1003</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>2</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>0.98</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-09-19 00:00:00.0 PDT</dateCreated>
+        <dateReleased>2010-08-09 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Friend of a Friend</displayLabel>
+        <description>Friend of a Friend vocabulary</description>
+        <abbreviation>FOAF</abbreviation>
+        <format>OWL</format>
+        <contactName>Dan Brickley</contactName>
+        <contactEmail>danbri@danbri.org</contactEmail>
+        <homepage>http://www.foaf-project.org</homepage>
+        <documentation>http://www.foaf-project.org/docs</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>foaf.owl</string>
+        </filenames>
+        <filePath>/1003/2</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10004</id>
+        <ontologyId>1004</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>2</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-09-19 00:00:00.0 PDT</dateCreated>
+        <dateReleased>2009-09-30 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Land Use and Cover Change</displayLabel>
+        <description>Another ontology version of POTATOHEAD (Model Representing Potential Objects That Appear in The Ontology of Human-Environmental Actions &amp; Decisions) created for agent-based models of land use change</description>
+        <abbreviation>LUCC</abbreviation>
+        <format>OWL</format>
+        <contactName>Gary Berg-Cross, Dawn Parker, Gary Polhill</contactName>
+        <contactEmail>gbergcross@gmail.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>lucc.owl</string>
+        </filenames>
+        <filePath>/1004/2</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10005</id>
+        <ontologyId>1005</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>1.22</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-09-19 00:00:00.0 PDT</dateCreated>
+        <dateReleased>2010-08-04 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>WGS84 Geo Positioning</displayLabel>
+        <description>An RDF &quot;vocabulary&quot; for representing latitude, longitude and altitude information in the WGS84 geodetic reference datum</description>
+        <abbreviation>wgs84_pos</abbreviation>
+        <format>OWL</format>
+        <contactName>Dan Brickley</contactName>
+        <contactEmail>danbri@danbri.org</contactEmail>
+        <homepage>http://www.socop.org</homepage>
+        <documentation>http://www.w3.org/2003/01/geo/</documentation>
+        <publication>http://www.w3.org/2003/01/geo/wgs84_pos#</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>wgs84_pos.owl</string>
+        </filenames>
+        <filePath>/1005/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10006</id>
+        <ontologyId>1006</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>version 1.0</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-09-19 00:00:00.0 PDT</dateCreated>
+        <dateReleased>2010-03-14 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Use Case Description Ontology</displayLabel>
+        <description>Use Case Description Ontology (UCDO). Use cases are a commonly used technique for specifying the functional requirements of a project. This ontology is concerned with the formal representation of the flow of events that occurs in a use case, including alternative flows and exceptional flows. Nonfunctional requirements are specified separately.</description>
+        <abbreviation>UCDO</abbreviation>
+        <format>OWL</format>
+        <contactName>Ken Baclawski</contactName>
+        <contactEmail>Ken@Baclawski.com</contactEmail>
+        <homepage>http://www.ccs.neu.edu/home/kenb/ontologies/</homepage>
+        <documentation>http://www.ccs.neu.edu/home/kenb/ontologies/</documentation>
+        <publication>http://www.ccs.neu.edu/home/kenb/ontologies/</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>ucdo.owl</string>
+        </filenames>
+        <filePath>/1006/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10007</id>
+        <ontologyId>1007</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>11-052r3</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-09-28 00:00:00.0 PDT</dateCreated>
+        <dateReleased>2011-06-16 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>GeoSPARQL</displayLabel>
+        <description>candidate OGC GeoSPARQL vocabulary</description>
+        <abbreviation>GeoSPARQL</abbreviation>
+        <format>OWL</format>
+        <contactName>Matthew Perry</contactName>
+        <contactEmail>matthew.perry@oracle.com</contactEmail>
+        <homepage>http://www.opengeospatial.org/standards/requests/80</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>geosparql.owl</string>
+        </filenames>
+        <filePath>/1007/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10008</id>
+        <ontologyId>1008</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>version 2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-12-02 00:00:00.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19103 Geographic Information Conceptual Schema Language</displayLabel>
+        <abbreviation>ISO19103</abbreviation>
+        <format>OWL</format>
+        <contactName>Bora Beran, Akm Saiful Islam, Luis Bermudez, Stephane Fellah, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>iso19103.owl</string>
+        </filenames>
+        <filePath>/1008/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10009</id>
+        <ontologyId>1009</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>version 2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-12-02 00:00:00.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19107:2003 Geographic Information - Spatial Schema</displayLabel>
+        <abbreviation>ISO19107</abbreviation>
+        <format>OWL</format>
+        <contactName>Bora Beran, Akm Saiful Islam, Volkan Yargici, Stephane Fellah, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>iso19107.owl</string>
+        </filenames>
+        <filePath>/1009/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10010</id>
+        <ontologyId>1010</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>unknown</versionNumber>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-12-02 00:00:00.0 PST</dateCreated>
+        <dateReleased>2011-06-20 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Semantic Sensor Net</displayLabel>
+        <description>This ontology describes sensors and observations, and related concepts.&#xd;
+It does not describe domain concepts, time, locations, etc. These are intended&#xd;
+to be included from other ontologies via OWL imports.</description>
+        <abbreviation>SSN</abbreviation>
+        <format>OWL</format>
+        <contactName>W3C Semantic Sensor Network Incubator Group</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <homepage>http://purl.oclc.org/NET/ssnx/ssn</homepage>
+        <documentation>http://purl.oclc.org/NET/ssnx/ssn</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>ssn.owl</string>
+        </filenames>
+        <filePath>/1010/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10011</id>
+        <ontologyId>1011</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>3.22</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-12-02 00:00:00.0 PST</dateCreated>
+        <dateReleased>2011-12-02 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>DOLCE+DnS Ultralite</displayLabel>
+        <description>Created by Aldo Gangemi as both a simplification and extension of DOLCE and Descriptions and Situations ontologies.This is a simplification of some parts of the DOLCE Lite-Plus library (cf. http://www.loa-cnr.it/ontologies/DLP397.owl).</description>
+        <abbreviation>DUL</abbreviation>
+        <format>OWL</format>
+        <contactName>Aldo Gangemi</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7001</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>dul.owl</string>
+        </filenames>
+        <filePath>/1011/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10027</id>
+        <ontologyId>1012</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>2</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>1.1.1</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-02-06 13:56:27.0 PST</dateCreated>
+        <dateReleased>2009-06-28 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Basic Formal Ontology</displayLabel>
+        <description>A genuine upper ontology which can be used in support of domain ontologies developed for scientific research. Thus BFO does not contain physical, chemical, biological or other terms which would properly fall within the special sciences domains.</description>
+        <abbreviation>BFO</abbreviation>
+        <format>OWL</format>
+        <contactName>Holger Stenzhorn</contactName>
+        <contactEmail>holger.stenzhorn@uks.eu</contactEmail>
+        <homepage>http://www.ifomis.org/bfo</homepage>
+        <documentation>http://www.ifomis.org/bfo/manual</documentation>
+        <publication>http://www.ifomis.org/bfo/publications</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7001</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>bfo-1.1.owl</string>
+        </filenames>
+        <filePath>/1012/2</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10013</id>
+        <ontologyId>1013</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 13:01:23.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19108:2002 Geographic Information - Temporal Schema</displayLabel>
+        <abbreviation>ISO19108</abbreviation>
+        <format>OWL</format>
+        <contactName>Akm Saiful Islam, Bora Beran, Luis Bermudez, Stephane Fellah, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>iso-19108.owl</string>
+        </filenames>
+        <filePath>/1013/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10014</id>
+        <ontologyId>1014</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 13:06:49.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO/FDIS 19109 Geographic Information - Rules for Application Schema</displayLabel>
+        <abbreviation>ISO19109</abbreviation>
+        <format>OWL</format>
+        <contactName>Akm Saiful Islam, Bora Beran, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>iso-19109.owl</string>
+        </filenames>
+        <filePath>/1014/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10015</id>
+        <ontologyId>1015</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 13:10:50.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO/FDIS 19110 Geographic Information - Methodology for Feature Cataloguing</displayLabel>
+        <abbreviation>ISO19110</abbreviation>
+        <format>OWL</format>
+        <contactName>Akm Saiful Islam, Bora Beran, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>iso-19110.owl</string>
+        </filenames>
+        <filePath>/1015/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10016</id>
+        <ontologyId>1016</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 13:15:20.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19111:2003 Geographic Information - Spatial Referencing by Coordinates</displayLabel>
+        <abbreviation>ISO19111</abbreviation>
+        <format>OWL</format>
+        <contactName>Akm Saiful Islam, Bora Beran, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>iso-19111.owl</string>
+        </filenames>
+        <filePath>/1016/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10017</id>
+        <ontologyId>1017</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 13:19:07.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19112:2003 Geographic Information - Spatial Referencing by Geographic Identifier</displayLabel>
+        <abbreviation>ISO19112</abbreviation>
+        <format>OWL</format>
+        <contactName>Akm Saiful Islam, Bora Beran, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>iso-19112.owl</string>
+        </filenames>
+        <filePath>/1017/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10018</id>
+        <ontologyId>1018</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 13:23:14.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19115:2003 Geographic Information - Metadata</displayLabel>
+        <abbreviation>ISO19115</abbreviation>
+        <format>OWL</format>
+        <contactName>Akm Saiful Islam, Luis Bermudez, Bora Beran, Stephane Fellah, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>iso-19115.owl</string>
+        </filenames>
+        <filePath>/1018/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10019</id>
+        <ontologyId>1019</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 13:28:22.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19115:2003 Geographic Information - Metadata Application</displayLabel>
+        <abbreviation>ISO19115-APP</abbreviation>
+        <format>OWL</format>
+        <contactName>Akm Saiful Islam, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>iso-19115-app.owl</string>
+        </filenames>
+        <filePath>/1019/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10020</id>
+        <ontologyId>1020</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>55</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 14:21:49.0 PST</dateCreated>
+        <dateReleased>2011-09-05 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NeoGeo Geometry Ontology</displayLabel>
+        <abbreviation>NeoGeo-Geometry</abbreviation>
+        <format>OWL</format>
+        <contactName>Juan Martin Salas, Andreas Harth, Barry Norton, Luis M. Vilches, Alexander De Leon, John Goodwin, Claus Stadler, Suchith Anand, Dominic Harries</contactName>
+        <contactEmail>jmsalas@gmail.com</contactEmail>
+        <homepage>http://geovocab.org</homepage>
+        <documentation>http://geovocab.org/doc/neogeo.html</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>geometry.rdf</string>
+        </filenames>
+        <filePath>/1020/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10021</id>
+        <ontologyId>1021</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>50</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 14:24:56.0 PST</dateCreated>
+        <dateReleased>2011-07-01 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NeoGeo Spatial Ontology</displayLabel>
+        <abbreviation>NeoGeo-Spatial</abbreviation>
+        <format>OWL</format>
+        <contactName>Juan Martin Salas, Andreas Harth, Barry Norton, Luis M. Vilches, Alexander De Leon, John Goodwin, Claus Stadler, Suchith Anand, Dominic Harries</contactName>
+        <contactEmail>jmsalas@gmail.com</contactEmail>
+        <homepage>http://geovocab.org</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>spatial.rdf</string>
+        </filenames>
+        <filePath>/1021/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10022</id>
+        <ontologyId>1022</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>Version 2.21 - 2010-10-05</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 14:33:40.0 PST</dateCreated>
+        <dateReleased>2010-10-05 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>GeoNames</displayLabel>
+        <abbreviation>GeoNames</abbreviation>
+        <format>OWL</format>
+        <contactName>Bernard Vatant</contactName>
+        <contactEmail>bernard.vatant@mondeca.com</contactEmail>
+        <homepage>http://geonames.org</homepage>
+        <documentation>http://geonames.org/ontology/documentation</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>ontology_v2.2.1.rdf</string>
+        </filenames>
+        <filePath>/1022/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10023</id>
+        <ontologyId>1023</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-25 05:50:54.0 PST</dateCreated>
+        <dateReleased>2011-01-07 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Spatial Relations</displayLabel>
+        <description>An ontology describing basic spatial relations.</description>
+        <abbreviation>SR</abbreviation>
+        <format>OWL</format>
+        <contactName>Ordnance Survey</contactName>
+        <contactEmail>opendata@ordnancesurvey.co.uk</contactEmail>
+        <homepage>http://data.ordnancesurvey.co.uk/ontology/spatialrelations/</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>spatialrelations.owl</string>
+        </filenames>
+        <filePath>/1023/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10024</id>
+        <ontologyId>1024</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-25 05:53:50.0 PST</dateCreated>
+        <dateReleased>2011-01-07 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>UK Administrative Geography</displayLabel>
+        <description>An ontology describing the administrative and voting area geography of Great Britain</description>
+        <abbreviation>UKAG</abbreviation>
+        <format>OWL</format>
+        <contactName>Ordnance Survey</contactName>
+        <contactEmail>opendata@ordnancesurvey.co.uk</contactEmail>
+        <homepage>http://data.ordnancesurvey.co.uk/ontology/admingeo/</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>admingeo.owl</string>
+        </filenames>
+        <filePath>/1024/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10025</id>
+        <ontologyId>1025</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-25 05:56:18.0 PST</dateCreated>
+        <dateReleased>2011-01-07 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Abstract Geometry</displayLabel>
+        <description>A ontology to describe abstract geometries.</description>
+        <abbreviation>AG</abbreviation>
+        <format>OWL</format>
+        <contactName>Ordnance Survey</contactName>
+        <contactEmail>opendata@ordnancesurvey.co.uk</contactEmail>
+        <homepage>http://data.ordnancesurvey.co.uk/ontology/geometry/</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>geometry.owl</string>
+        </filenames>
+        <filePath>/1025/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10026</id>
+        <ontologyId>1026</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-25 05:59:19.0 PST</dateCreated>
+        <dateReleased>2011-01-07 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>UK Postcode Geography</displayLabel>
+        <description>An ontology describing the postcode geography in Great Britain.</description>
+        <abbreviation>UKPC</abbreviation>
+        <format>OWL</format>
+        <contactName>Ordnance Survey</contactName>
+        <contactEmail>opendata@ordnancesurvey.co.uk</contactEmail>
+        <homepage>http://data.ordnancesurvey.co.uk/ontology/postcode/</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>postcode.owl</string>
+        </filenames>
+        <filePath>/1026/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10028</id>
+        <ontologyId>1027</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>v1.2 </versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-02-22 07:52:52.0 PST</dateCreated>
+        <dateReleased>2008-03-26 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Geoconcepts ontology Lite</displayLabel>
+        <description>Simple,lite geometry, geo features and relations</description>
+        <abbreviation>GeOC</abbreviation>
+        <format>OWL</format>
+        <contactName>Gary Berg-Cross for Javier Ruiz </contactName>
+        <contactEmail>gbergcross@gmail.com</contactEmail>
+        <documentation>http://www.geospatialmeaning.eu/geo-ontologies-survey/GeoConcepts/GeoConcepts_v1.1_20080301Lite.owl#</documentation>
+        <publication>http://www.geospatialmeaning.eu/geo-ontologies-survey/GeoConcepts/GeoConcepts_v1.1_20080301Lite.owl</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>GeoConcepts_1.1_20080301Lite.owl</string>
+        </filenames>
+        <filePath>/1027/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10029</id>
+        <ontologyId>1028</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.55</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2012-04-04 12:46:28.0 PDT</dateCreated>
+        <dateReleased>2004-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>SUMO</displayLabel>
+        <description>Suggested Upper Merged Ontology) developed within the IEEE Standard Upper Ontology Working Group. The goal was to develop a standard ontology that will promote data interoperability, information search and retrieval, automated inferencing, and natural language processing. </description>
+        <abbreviation>SUMO</abbreviation>
+        <format>OWL</format>
+        <contactName>Adam Pease</contactName>
+        <contactEmail>apease@articulatesoftware.com</contactEmail>
+        <homepage>http://www.adampease.org/professional/</homepage>
+        <documentation>http://www.ontologyportal.org/</documentation>
+        <publication>http://www.ontologyportal.org/</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>SUMO.owl.txt</string>
+        </filenames>
+        <filePath>/1028/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10030</id>
+        <ontologyId>1029</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-05-29 15:21:40.0 PDT</dateCreated>
+        <dateReleased>2012-05-29 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Meteor Crater Ontology</displayLabel>
+        <description>An example of instance data using the US Topographic ontology.  This file describes the feature Meteor Crater in Arizona and the features that are nearby.</description>
+        <abbreviation>MC</abbreviation>
+        <format>OWL</format>
+        <contactName>Dalia Varanka</contactName>
+        <contactEmail>dvaranka@usgs.gov</contactEmail>
+        <homepage>cegis.usgs.gov</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>meteorCrater.n3</string>
+        </filenames>
+        <filePath>/1029/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10033</id>
+        <ontologyId>1030</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>3</internalVersionNumber>
+        <userId>14</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-10 12:13:38.0 PDT</dateCreated>
+        <dateReleased>2001-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NLCD2001</displayLabel>
+        <description>The land cover classification system for National Land Cover Database 2001 (for testing). </description>
+        <abbreviation>NLCD2001</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <documentation>http://www.mrlc.gov/mrlc2k_nlcd.asp</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>NLCD2001.owl</string>
+        </filenames>
+        <filePath>/1030/3</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10039</id>
+        <ontologyId>1031</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>4</internalVersionNumber>
+        <userId>14</userId>
+        <versionNumber>unknown</versionNumber>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-12 07:25:36.0 PDT</dateCreated>
+        <dateReleased>1992-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NLCD1992</displayLabel>
+        <description>The land cover class definition for NLCD 1992 (for testing).</description>
+        <abbreviation>NLCD1992</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <homepage>http://landcover.usgs.gov/classes.php</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>NLCD1992.owl</string>
+        </filenames>
+        <filePath>/1031/4</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10040</id>
+        <ontologyId>1032</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>3</internalVersionNumber>
+        <userId>14</userId>
+        <versionNumber>unknown</versionNumber>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-12 07:46:57.0 PDT</dateCreated>
+        <dateReleased>1991-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Land Use Land Cover</displayLabel>
+        <description>USGS Land Use and Land Cover classification.</description>
+        <abbreviation>LULC</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <homepage>http://sagemap.wr.usgs.gov/ftp/n_dakota/NDGS/1_250_LULC.htm</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>USGSLULC.owl</string>
+        </filenames>
+        <filePath>/1032/3</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10041</id>
+        <ontologyId>1033</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>0.9.15</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-02-21 11:53:05.0 PST</dateCreated>
+        <dateReleased>2012-04-01 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Semantic Science Integrated Ontology</displayLabel>
+        <description>SIO is an effort using clearly-stated ontology design patterns to create a coherent formal  bio-ontology that includes some Chem.</description>
+        <abbreviation>SIIO</abbreviation>
+        <format>OWL</format>
+        <contactName>Michel Dumontier </contactName>
+        <contactEmail>michel.Dumontier@gmail.com</contactEmail>
+        <homepage>http://code.google.com/p/semanticscience/wiki/SIO</homepage>
+        <documentation>http://code.google.com/p/semanticscience/wiki/SIO</documentation>
+        <publication>http://code.google.com/p/semanticscience/wiki/SIO</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7003</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>SIO.owl</string>
+        </filenames>
+        <filePath>/1033/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10042</id>
+        <ontologyId>1035</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-04-15 08:26:26.0 PDT</dateCreated>
+        <dateReleased>2009-06-06 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Geography</displayLabel>
+        <description>The Geographis Ontology serves as a sort of extension to existing geographic ontologies.</description>
+        <abbreviation>Geog</abbreviation>
+        <format>OWL</format>
+        <contactName>Ian Jacobi/Gary Berg-Cross</contactName>
+        <contactEmail>jacobi@csail.mit.edu</contactEmail>
+        <documentation>http://lov.okfn.org/dataset/lov/details/vocabulary_geos.html</documentation>
+        <publication>http://data.semanticweb.org/organization/csail-mit</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>geography.txt</string>
+        </filenames>
+        <filePath>/1035/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10043</id>
+        <ontologyId>1036</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-04-16 06:55:28.0 PDT</dateCreated>
+        <dateReleased>2019-11-27 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Places Ontology</displayLabel>
+        <description>The Places Ontology is a simple lightweight ontology for describing places of geographic interest.</description>
+        <abbreviation>Place</abbreviation>
+        <format>OWL</format>
+        <contactName>Michael Smethurst, Rob Styles, Tom Scott</contactName>
+        <contactEmail>michael.smethurst@bbc.co.uk</contactEmail>
+        <homepage>http://lov.okfn.org/dataset/lov/details/vocabulary_place.html</homepage>
+        <documentation>http://vocab.org/places/schema.html</documentation>
+        <publication>http://purl.org/ontology/places</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>places-schema.txt</string>
+        </filenames>
+        <filePath>/1036/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10044</id>
+        <ontologyId>1037</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>Version 0.01</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-04-16 08:39:03.0 PDT</dateCreated>
+        <dateReleased>2004-02-20 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>GeoFeatures</displayLabel>
+        <description>This ontology contains geographic feature classes and associated properties including classes and properties for describing the spatial location of the geographic feature. The classes and properties have been defined based on an ESRI dataset.</description>
+        <abbreviation>GeoF</abbreviation>
+        <format>OWL</format>
+        <contactName>Femke Reistma</contactName>
+        <contactEmail>femke.reitsma@canterbury.ac.nz</contactEmail>
+        <homepage>http://www.geog.canterbury.ac.nz/department/staff/femker.shtml</homepage>
+        <documentation>http://lov.okfn.org/dataset/lov/details/vocabulary_geof.html</documentation>
+        <publication>http://lov.okfn.org/dataset/lov/details/vocabulary_geof.html</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>geoFeatures20040307.owl</string>
+        </filenames>
+        <filePath>/1037/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10045</id>
+        <ontologyId>1042</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>18</userId>
+        <versionNumber>1</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-07-18 18:00:25.0 PDT</dateCreated>
+        <dateReleased>2013-07-18 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>WisLandUseCodes</displayLabel>
+        <description>An integration of land use code terms from Wisconsin jurisdictions.</description>
+        <abbreviation>WisLandUseCodes</abbreviation>
+        <format>OWL</format>
+        <contactName>Nancy Wiegand</contactName>
+        <contactEmail>wiegand@cs.wisc.edu</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>WisLandUseCodes.owl</string>
+        </filenames>
+        <filePath>/1042/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10046</id>
+        <ontologyId>1043</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2013-07-25 13:27:13.0 PDT</dateCreated>
+        <dateReleased>2012-02-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ODP #   Movement  and  Path ontology</displayLabel>
+        <description>This is a geospatial instantation of the generic Movement and Path pattern created at GeoVoCampSB2012.;&#xd;
+	dc:title &quot;Spatial Motions and Paths&quot; .&#xd;
+</description>
+        <abbreviation>ODP-MP</abbreviation>
+        <format>OWL</format>
+        <contactName>Dave Kolas</contactName>
+        <contactEmail>dkolas@bbn.com</contactEmail>
+        <homepage>SOCoP.org</homepage>
+        <documentation>http://vocamp.org/wiki/GeoVoCampSB2012</documentation>
+        <publication>http://vocamp.org/wiki/GeoVoCampSB2012</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>motion and path.owl</string>
+        </filenames>
+        <filePath>/1043/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10047</id>
+        <ontologyId>1044</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.o</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-07-25 13:56:27.0 PDT</dateCreated>
+        <dateReleased>2012-11-30 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Multi Surface Network</displayLabel>
+        <description>The base (SurfaceNetworks) ontology is based on the Cayley/Maxwell theory of surface networks (see Cayley, Arthur. \&quot;XL. On contour and slope lines.\&quot; The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science 18.120 (1859): 264-268., and Maxwell, J. Clerk. \&quot;L. On hills and dales.\&quot; (1870): 421-427.) as applied to topography.</description>
+        <abbreviation>MSN</abbreviation>
+        <format>OWL</format>
+        <contactName>Dave Kolas</contactName>
+        <contactEmail>dkolas@bbn.com</contactEmail>
+        <homepage>SOCoP.org</homepage>
+        <documentation>http://ontolog.cim3.net/cgi-bin/wiki.pl?SocopWorkshops/Socop2012Workshop</documentation>
+        <publication>http://ontolog.cim3.net/cgi-bin/wiki.pl?SocopWorkshops/Socop2012Workshop</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>MultiSurfaceNetwork.owl</string>
+        </filenames>
+        <filePath>/1044/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10048</id>
+        <ontologyId>1045</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-07-25 14:16:20.0 PDT</dateCreated>
+        <dateReleased>2012-12-12 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ODP scaling Pattern</displayLabel>
+        <description>Fomal pattern for the notion of scale - which refers to the ratio of the&#xd;
+depicted size of a feature on a cartographic map relative to its actual size. Scale is at the core of cartography and essential for the visualization of geo-information in maps.</description>
+        <abbreviation>ODP-Scale</abbreviation>
+        <format>OWL</format>
+        <contactName>Simon Scheider</contactName>
+        <contactEmail>simonscheider@web.de</contactEmail>
+        <homepage>http://irtg.ifgi.de/post-docs/dr-simon-scheider/</homepage>
+        <documentation>http://knoesis.wright.edu/pascal/resources/publications/odp-carto-scaling-TR.pdf</documentation>
+        <publication>http://www.geographicknowledge.de/pub.php</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>Scaling Pattern.owl</string>
+        </filenames>
+        <filePath>/1045/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10049</id>
+        <ontologyId>1046</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-07-25 14:23:05.0 PDT</dateCreated>
+        <dateReleased>2012-11-30 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Surface Networks</displayLabel>
+        <description>The ontology is based on the Cayley/Maxwell theory of surface networks (see Cayley, Arthur. \&quot;XL. On contour and slope lines.\&quot; The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science 18.120 (1859): 264-268., and Maxwell, J. Clerk. \&quot;L. On hills and dales.\&quot; (1870): 421-427.) as applied to topography.  </description>
+        <abbreviation>SurfaceNet</abbreviation>
+        <format>OWL</format>
+        <contactName>Gaurav Sinha</contactName>
+        <contactEmail>sinhag@ohio.edu</contactEmail>
+        <homepage>http://www.ohio.edu/people/sinhag/</homepage>
+        <documentation>http://ontolog.cim3.net/cgi-bin/wiki.pl?SocopWorkshops/Socop2012Workshop</documentation>
+        <publication>http://ontolog.cim3.net/cgi-bin/wiki.pl?SocopWorkshops/Socop2012Workshop</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>SurfaceNetworks.owl</string>
+        </filenames>
+        <filePath>/1046/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10050</id>
+        <ontologyId>1047</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-07-25 14:29:25.0 PDT</dateCreated>
+        <dateReleased>2012-11-30 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Terrain Surface Networks</displayLabel>
+        <description>This ontology, created as a product of the November 2012 Spatial Ontology Community of Practice GeoVoCamp,  is an extension of SurfaceNetworks where the surface in question is the terrain of the Earth.  As such it links to GeoSPARQL for representiing the geometries of the various types, and adds elevation as a specialization of surfaceValue.&quot;&quot;&quot;@</description>
+        <abbreviation>Terrain-SN</abbreviation>
+        <format>OWL</format>
+        <contactName>Gaurav Sinha</contactName>
+        <contactEmail>sinhag@ohio.edu</contactEmail>
+        <homepage>www.ohio.edu/people/sinhag/â&#x80;&#x8e;</homepage>
+        <documentation>http://ontolog.cim3.net/cgi-bin/wiki.pl?SocopWorkshops/Socop2012Workshop</documentation>
+        <publication>http://ontolog.cim3.net/file/work/SOCoP/Workshops/SOCoP-Workshop-2012-12-29/Cayley-Maxwell%20Theory%20of%20Surface%20Networks-1.pptx</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>TerrainSurfaceNetwork.owl</string>
+        </filenames>
+        <filePath>/1047/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10051</id>
+        <ontologyId>1048</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>24</userId>
+        <versionNumber>201305</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>1</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2013-09-17 15:02:10.0 PDT</dateCreated>
+        <dateReleased>2013-01-05 00:00:00.0 PST</dateReleased>
+        <isManual>0</isManual>
+        <displayLabel>Observations and Measurements</displayLabel>
+        <description>OWL implementation of ISO 19156 Observations schema</description>
+        <abbreviation>OM</abbreviation>
+        <format>OWL</format>
+        <contactName>Simon Cox</contactName>
+        <contactEmail>simon.cox@csiro.au</contactEmail>
+        <homepage>http://csiro.au/people/Simon.Cox</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7003</int>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>observation</string>
+        </filenames>
+        <filePath>/1048/1</filePath>
+        <downloadLocation>http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation</downloadLocation>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10052</id>
+        <ontologyId>1049</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>24</userId>
+        <versionNumber>201305</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>1</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2013-09-17 15:07:08.0 PDT</dateCreated>
+        <dateReleased>2013-01-05 00:00:00.0 PST</dateReleased>
+        <isManual>0</isManual>
+        <displayLabel>Sampling features and specimens</displayLabel>
+        <description>OWL implementation of ISO 19156 sampling features schema</description>
+        <abbreviation>SAM</abbreviation>
+        <format>OWL</format>
+        <contactName>Simon Cox</contactName>
+        <contactEmail>simon.cox@csiro.au</contactEmail>
+        <homepage>http://csiro.au/people/Simon.Cox</homepage>
+        <documentation>https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7003</int>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>sampling</string>
+        </filenames>
+        <filePath>/1049/1</filePath>
+        <downloadLocation>http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling</downloadLocation>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10053</id>
+        <ontologyId>1050</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>25</userId>
+        <versionNumber>201211</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-10-16 16:07:57.0 PDT</dateCreated>
+        <dateReleased>2013-02-04 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>IUGS CGI Consolidation Degree Term Vocabulary</displayLabel>
+        <description>This file contains the 201211 version of CGI Consolidation degree vocabulary. Use for specifying degree of consolidation of compound material, distinguishes rock from unconsolidated material.</description>
+        <abbreviation>consoldeg</abbreviation>
+        <format>OWL</format>
+        <contactName>Stephen M Richard</contactName>
+        <contactEmail>steve.richard@azgs.az.gov</contactEmail>
+        <homepage>http://resource.geosciml.org/</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>ConsolidationDegree201211.rdf</string>
+        </filenames>
+        <filePath>/1050/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10054</id>
+        <ontologyId>1051</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>25</userId>
+        <versionNumber>201211</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2013-10-16 17:08:14.0 PDT</dateCreated>
+        <dateReleased>2012-02-11 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>IUGS CGI Lithology ontology</displayLabel>
+        <description>This owl ontology is designed to duplicate the intention of the CGI SimpleLithology201001 vocabulary. It provides an OWL view of the vocabulary with the distinguishing properties between classes formally specified.  The vocabuaries used for the propertiescorrespond with terms in common usage, and probably don&apos;t make sense to build as SKOS vocabularies for populating GeoSciML documents.</description>
+        <abbreviation>cgilith</abbreviation>
+        <format>OWL</format>
+        <contactName>Stephen M Richard</contactName>
+        <contactEmail>steve.richard@azgs.az.gov</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <documentationSlot>http://www.w3.org/2004/02/skos/core#description</documentationSlot>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7003</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>CGI_LithologyHTTPURI.owl</string>
+        </filenames>
+        <filePath>/1051/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1010</accessedResource>
+  <accessDate>2013-11-12 15:34:07.1 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10010</id>
+        <ontologyId>1010</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>unknown</versionNumber>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-12-02 00:00:00.0 PST</dateCreated>
+        <dateReleased>2011-06-20 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Semantic Sensor Net</displayLabel>
+        <description>This ontology describes sensors and observations, and related concepts.&#xd;
+It does not describe domain concepts, time, locations, etc. These are intended&#xd;
+to be included from other ontologies via OWL imports.</description>
+        <abbreviation>SSN</abbreviation>
+        <format>OWL</format>
+        <contactName>W3C Semantic Sensor Network Incubator Group</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <homepage>http://purl.oclc.org/NET/ssnx/ssn</homepage>
+        <documentation>http://purl.oclc.org/NET/ssnx/ssn</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>ssn.owl</string>
+        </filenames>
+        <filePath>/1010/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

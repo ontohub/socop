@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1026</accessedResource>
+  <accessDate>2013-11-12 15:34:13.454 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10026</id>
+        <ontologyId>1026</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-25 05:59:19.0 PST</dateCreated>
+        <dateReleased>2011-01-07 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>UK Postcode Geography</displayLabel>
+        <description>An ontology describing the postcode geography in Great Britain.</description>
+        <abbreviation>UKPC</abbreviation>
+        <format>OWL</format>
+        <contactName>Ordnance Survey</contactName>
+        <contactEmail>opendata@ordnancesurvey.co.uk</contactEmail>
+        <homepage>http://data.ordnancesurvey.co.uk/ontology/postcode/</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>postcode.owl</string>
+        </filenames>
+        <filePath>/1026/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1024</accessedResource>
+  <accessDate>2013-11-12 15:34:12.656 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10024</id>
+        <ontologyId>1024</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-25 05:53:50.0 PST</dateCreated>
+        <dateReleased>2011-01-07 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>UK Administrative Geography</displayLabel>
+        <description>An ontology describing the administrative and voting area geography of Great Britain</description>
+        <abbreviation>UKAG</abbreviation>
+        <format>OWL</format>
+        <contactName>Ordnance Survey</contactName>
+        <contactEmail>opendata@ordnancesurvey.co.uk</contactEmail>
+        <homepage>http://data.ordnancesurvey.co.uk/ontology/admingeo/</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>admingeo.owl</string>
+        </filenames>
+        <filePath>/1024/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

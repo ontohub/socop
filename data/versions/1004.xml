@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1004</accessedResource>
+  <accessDate>2013-11-12 15:34:04.590 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10002</id>
+        <ontologyId>1004</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>11-052r3</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2011-12-13 06:47:31.0 PST</dateCreated>
+        <dateReleased>2011-06-16 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>GeoSPARQL</displayLabel>
+        <description>candidate OGC GeoSPARQL vocabulary</description>
+        <abbreviation>GeoSPARQL</abbreviation>
+        <format>OWL</format>
+        <contactName>Matthew Perry</contactName>
+        <contactEmail>matthew.perry@oracle.com</contactEmail>
+        <homepage>http://www.opengeospatial.org/standards/requests/80</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>geosparql_vocab_all.owl</string>
+        </filenames>
+        <filePath>/1004/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10004</id>
+        <ontologyId>1004</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>2</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-09-19 00:00:00.0 PDT</dateCreated>
+        <dateReleased>2009-09-30 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Land Use and Cover Change</displayLabel>
+        <description>Another ontology version of POTATOHEAD (Model Representing Potential Objects That Appear in The Ontology of Human-Environmental Actions &amp; Decisions) created for agent-based models of land use change</description>
+        <abbreviation>LUCC</abbreviation>
+        <format>OWL</format>
+        <contactName>Gary Berg-Cross, Dawn Parker, Gary Polhill</contactName>
+        <contactEmail>gbergcross@gmail.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>lucc.owl</string>
+        </filenames>
+        <filePath>/1004/2</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

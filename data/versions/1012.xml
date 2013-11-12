@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1012</accessedResource>
+  <accessDate>2013-11-12 15:34:07.796 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10012</id>
+        <ontologyId>1012</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>1.0 RC</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-12-02 00:00:00.0 PST</dateCreated>
+        <dateReleased>2006-12-06 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Basic Formal Ontology</displayLabel>
+        <abbreviation>BFO</abbreviation>
+        <format>OWL</format>
+        <contactName>Holger Stenzhorn</contactName>
+        <contactEmail>holger.stenzhorn@uks.eu</contactEmail>
+        <homepage>http://www.ifomis.org/bfo</homepage>
+        <documentation>http://www.ifomis.org/bfo/manual</documentation>
+        <publication>http://www.ifomis.org/bfo/publications</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7001</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>bfo.owl</string>
+        </filenames>
+        <filePath>/1012/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10027</id>
+        <ontologyId>1012</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>2</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>1.1.1</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-02-06 13:56:27.0 PST</dateCreated>
+        <dateReleased>2009-06-28 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Basic Formal Ontology</displayLabel>
+        <description>A genuine upper ontology which can be used in support of domain ontologies developed for scientific research. Thus BFO does not contain physical, chemical, biological or other terms which would properly fall within the special sciences domains.</description>
+        <abbreviation>BFO</abbreviation>
+        <format>OWL</format>
+        <contactName>Holger Stenzhorn</contactName>
+        <contactEmail>holger.stenzhorn@uks.eu</contactEmail>
+        <homepage>http://www.ifomis.org/bfo</homepage>
+        <documentation>http://www.ifomis.org/bfo/manual</documentation>
+        <publication>http://www.ifomis.org/bfo/publications</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7001</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>bfo-1.1.owl</string>
+        </filenames>
+        <filePath>/1012/2</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

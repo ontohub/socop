@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1048</accessedResource>
+  <accessDate>2013-11-12 15:34:20.484 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10051</id>
+        <ontologyId>1048</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>24</userId>
+        <versionNumber>201305</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>1</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2013-09-17 15:02:10.0 PDT</dateCreated>
+        <dateReleased>2013-01-05 00:00:00.0 PST</dateReleased>
+        <isManual>0</isManual>
+        <displayLabel>Observations and Measurements</displayLabel>
+        <description>OWL implementation of ISO 19156 Observations schema</description>
+        <abbreviation>OM</abbreviation>
+        <format>OWL</format>
+        <contactName>Simon Cox</contactName>
+        <contactEmail>simon.cox@csiro.au</contactEmail>
+        <homepage>http://csiro.au/people/Simon.Cox</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7003</int>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>observation</string>
+        </filenames>
+        <filePath>/1048/1</filePath>
+        <downloadLocation>http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation</downloadLocation>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

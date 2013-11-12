@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1049</accessedResource>
+  <accessDate>2013-11-12 15:34:20.886 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10052</id>
+        <ontologyId>1049</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>24</userId>
+        <versionNumber>201305</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>1</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2013-09-17 15:07:08.0 PDT</dateCreated>
+        <dateReleased>2013-01-05 00:00:00.0 PST</dateReleased>
+        <isManual>0</isManual>
+        <displayLabel>Sampling features and specimens</displayLabel>
+        <description>OWL implementation of ISO 19156 sampling features schema</description>
+        <abbreviation>SAM</abbreviation>
+        <format>OWL</format>
+        <contactName>Simon Cox</contactName>
+        <contactEmail>simon.cox@csiro.au</contactEmail>
+        <homepage>http://csiro.au/people/Simon.Cox</homepage>
+        <documentation>https://www.seegrid.csiro.au/wiki/AppSchemas/ObservationsAndSampling</documentation>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7003</int>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>sampling</string>
+        </filenames>
+        <filePath>/1049/1</filePath>
+        <downloadLocation>http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling</downloadLocation>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

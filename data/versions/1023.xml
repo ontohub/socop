@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1023</accessedResource>
+  <accessDate>2013-11-12 15:34:12.255 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10023</id>
+        <ontologyId>1023</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-25 05:50:54.0 PST</dateCreated>
+        <dateReleased>2011-01-07 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Spatial Relations</displayLabel>
+        <description>An ontology describing basic spatial relations.</description>
+        <abbreviation>SR</abbreviation>
+        <format>OWL</format>
+        <contactName>Ordnance Survey</contactName>
+        <contactEmail>opendata@ordnancesurvey.co.uk</contactEmail>
+        <homepage>http://data.ordnancesurvey.co.uk/ontology/spatialrelations/</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>spatialrelations.owl</string>
+        </filenames>
+        <filePath>/1023/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

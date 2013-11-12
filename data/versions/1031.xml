@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1031</accessedResource>
+  <accessDate>2013-11-12 15:34:15.478 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10034</id>
+        <ontologyId>1031</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>14</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-10 15:51:41.0 PDT</dateCreated>
+        <dateReleased>1992-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NLCD1992</displayLabel>
+        <description>The land cover class definition for NLCD 1992 (for testing).</description>
+        <abbreviation>NLCD1992</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <homepage>http://landcover.usgs.gov/classes.php</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>NLCD1992.owl</string>
+        </filenames>
+        <filePath>/1031/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10037</id>
+        <ontologyId>1031</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>2</internalVersionNumber>
+        <userId>14</userId>
+        <versionNumber>unknown</versionNumber>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-10 18:37:57.0 PDT</dateCreated>
+        <dateReleased>1992-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NLCD1992</displayLabel>
+        <description>The land cover class definition for NLCD 1992 (for testing).</description>
+        <abbreviation>NLCD1992</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <homepage>http://landcover.usgs.gov/classes.php</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>NLCD1992.owl</string>
+        </filenames>
+        <filePath>/1031/2</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10038</id>
+        <ontologyId>1031</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>3</internalVersionNumber>
+        <userId>14</userId>
+        <versionNumber>unknown</versionNumber>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-11 08:46:32.0 PDT</dateCreated>
+        <dateReleased>1992-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NLCD1992</displayLabel>
+        <description>The land cover class definition for NLCD 1992 (for testing).</description>
+        <abbreviation>NLCD1992</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <homepage>http://landcover.usgs.gov/classes.php</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>NLCD1992.owl</string>
+        </filenames>
+        <filePath>/1031/3</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10039</id>
+        <ontologyId>1031</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>4</internalVersionNumber>
+        <userId>14</userId>
+        <versionNumber>unknown</versionNumber>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-12 07:25:36.0 PDT</dateCreated>
+        <dateReleased>1992-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>NLCD1992</displayLabel>
+        <description>The land cover class definition for NLCD 1992 (for testing).</description>
+        <abbreviation>NLCD1992</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <homepage>http://landcover.usgs.gov/classes.php</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>NLCD1992.owl</string>
+        </filenames>
+        <filePath>/1031/4</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

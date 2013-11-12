@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1042</accessedResource>
+  <accessDate>2013-11-12 15:34:18.79 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10045</id>
+        <ontologyId>1042</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>18</userId>
+        <versionNumber>1</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-07-18 18:00:25.0 PDT</dateCreated>
+        <dateReleased>2013-07-18 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>WisLandUseCodes</displayLabel>
+        <description>An integration of land use code terms from Wisconsin jurisdictions.</description>
+        <abbreviation>WisLandUseCodes</abbreviation>
+        <format>OWL</format>
+        <contactName>Nancy Wiegand</contactName>
+        <contactEmail>wiegand@cs.wisc.edu</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>WisLandUseCodes.owl</string>
+        </filenames>
+        <filePath>/1042/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

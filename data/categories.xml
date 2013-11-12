@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/categories</accessedResource>
+  <accessDate>2013-11-12 15:34:03.375 PST</accessDate>
+  <data>
+    <list>
+      <categoryBean>
+        <id>7001</id>
+        <name>Upper Ontologies</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7002</id>
+        <name>Standards</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7003</id>
+        <name>Science</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7004</id>
+        <name>Financial</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7005</id>
+        <name>Government</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7006</id>
+        <name>Cultural</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7007</id>
+        <name>Social Networking</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7008</id>
+        <name>Geospatial</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7009</id>
+        <name>Commercial</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7010</id>
+        <name>Literature</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7011</id>
+        <name>Technology</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7012</id>
+        <name>Provenance</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7013</id>
+        <name>Defense</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7014</id>
+        <name>Metadata</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7015</id>
+        <name>Process</name>
+      </categoryBean>
+      <categoryBean>
+        <id>7016</id>
+        <name>Other</name>
+      </categoryBean>
+    </list>
+  </data>
+</success>

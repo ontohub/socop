@@ -1,0 +1,3010 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.spatialontology.org/LULC.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.spatialontology.org/LULC.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#AgriculturalLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BareExposedRock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BareGround"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BarrenLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BaysAndEstuaries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beaches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommercialAndServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConfinedFeedingOperations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CroplandAndPasture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeciduousForestLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrySaltFlats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvergreenForestLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForestLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForestedWetland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glaciers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HerbaceousRangeland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HerbaceousTundra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lakes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixedBarrenLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixedForestLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixedRangeland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixedTundra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonforestedWetland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerennialSnowOrIce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerennialSnowfields"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RangeLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reservoirs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StreamsAndCanals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransitionalAreas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tundra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UrbanBuilt-upLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WetTundra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wetland"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AgriculturalLand"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#BarrenLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#Tundra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BarrenLand"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#BarrenLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#UrbanBuilt-upLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#AgriculturalLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#AgriculturalLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#ForestLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#BarrenLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#ForestLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForestLand"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#Wetland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#PerennialSnowOrIce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#RangeLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#Tundra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#UrbanBuilt-upLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#UrbanBuilt-upLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#BarrenLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#ForestLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#RangeLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#Tundra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#UrbanBuilt-upLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#Wetland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#AgriculturalLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#AgriculturalLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#UrbanBuilt-upLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerennialSnowOrIce"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#PerennialSnowOrIce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RangeLand"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residential"/>
+        <Class IRI="#UrbanBuilt-upLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+        <Class IRI="#BarrenLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+        <Class IRI="#RangeLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShrubAndBrushTundra"/>
+        <Class IRI="#Tundra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StreamsAndCanals"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+        <Class IRI="#BarrenLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransitionalAreas"/>
+        <Class IRI="#BarrenLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+        <Class IRI="#UrbanBuilt-upLand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tundra"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WetTundra"/>
+        <Class IRI="#Tundra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wetland"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#BareGround"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#BaysAndEstuaries"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#Beaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#CommercialAndServices"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#ConfinedFeedingOperations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#CroplandAndPasture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#DeciduousForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#DrySaltFlats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#EvergreenForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareExposedRock"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#BaysAndEstuaries"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#Beaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#CommercialAndServices"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#ConfinedFeedingOperations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#CroplandAndPasture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#DeciduousForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#DrySaltFlats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#EvergreenForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BareGround"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#Beaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#CommercialAndServices"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#ConfinedFeedingOperations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#CroplandAndPasture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#DeciduousForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#DrySaltFlats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#EvergreenForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaysAndEstuaries"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#CommercialAndServices"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#ConfinedFeedingOperations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#CroplandAndPasture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#DeciduousForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#DrySaltFlats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#EvergreenForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaches"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#ConfinedFeedingOperations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#CroplandAndPasture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#DeciduousForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#DrySaltFlats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#EvergreenForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CommercialAndServices"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#CroplandAndPasture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#DeciduousForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#DrySaltFlats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#EvergreenForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfinedFeedingOperations"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#DeciduousForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#DrySaltFlats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#EvergreenForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CroplandAndPasture"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#DrySaltFlats"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#EvergreenForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeciduousForestLand"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#EvergreenForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrySaltFlats"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#ForestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvergreenForestLand"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#Glaciers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ForestedWetland"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#HerbaceousRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Glaciers"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#HerbaceousTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousRangeland"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#Industrial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerbaceousTundra"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Industrial"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#Lakes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IndustrialAndCommercialComplexes"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#MixedBarrenLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lakes"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#MixedForestLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedBarrenLand"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#MixedRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedForestLand"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#MixedTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedRangeland"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedTundra"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#NonforestedWetland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MixedUrbanOrBuilt-upLand"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NonforestedWetland"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#OtherAgriculturalLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrchardsGrovesVineyardsNurseriesAndOrnamentalHorticulturalAreas"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherAgriculturalLand"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#PerennialSnowfields"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OtherUrbanOrBuilt-upLand"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#Reservoirs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PerennialSnowfields"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#Residential"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Reservoirs"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Residential"/>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Residential"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Residential"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Residential"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Residential"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Residential"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Residential"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Residential"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SandyAreasOtherThanBeaches"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+        <Class IRI="#ShrubAndBrushTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushRangeland"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushTundra"/>
+        <Class IRI="#StreamsAndCanals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushTundra"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushTundra"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushTundra"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ShrubAndBrushTundra"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#StreamsAndCanals"/>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#StreamsAndCanals"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#StreamsAndCanals"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#StreamsAndCanals"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+        <Class IRI="#TransitionalAreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#StripMinesQuarriesAndGravelPits"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TransitionalAreas"/>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TransitionalAreas"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TransportationCommunicationsAndUtilities"/>
+        <Class IRI="#WetTundra"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1051</accessedResource>
+  <accessDate>2013-11-12 15:34:21.690 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10054</id>
+        <ontologyId>1051</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>25</userId>
+        <versionNumber>201211</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2013-10-16 17:08:14.0 PDT</dateCreated>
+        <dateReleased>2012-02-11 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>IUGS CGI Lithology ontology</displayLabel>
+        <description>This owl ontology is designed to duplicate the intention of the CGI SimpleLithology201001 vocabulary. It provides an OWL view of the vocabulary with the distinguishing properties between classes formally specified.  The vocabuaries used for the propertiescorrespond with terms in common usage, and probably don&apos;t make sense to build as SKOS vocabularies for populating GeoSciML documents.</description>
+        <abbreviation>cgilith</abbreviation>
+        <format>OWL</format>
+        <contactName>Stephen M Richard</contactName>
+        <contactEmail>steve.richard@azgs.az.gov</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <documentationSlot>http://www.w3.org/2004/02/skos/core#description</documentationSlot>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7003</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>CGI_LithologyHTTPURI.owl</string>
+        </filenames>
+        <filePath>/1051/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

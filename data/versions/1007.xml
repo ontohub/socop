@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1007</accessedResource>
+  <accessDate>2013-11-12 15:34:05.804 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10007</id>
+        <ontologyId>1007</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>11-052r3</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-09-28 00:00:00.0 PDT</dateCreated>
+        <dateReleased>2011-06-16 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>GeoSPARQL</displayLabel>
+        <description>candidate OGC GeoSPARQL vocabulary</description>
+        <abbreviation>GeoSPARQL</abbreviation>
+        <format>OWL</format>
+        <contactName>Matthew Perry</contactName>
+        <contactEmail>matthew.perry@oracle.com</contactEmail>
+        <homepage>http://www.opengeospatial.org/standards/requests/80</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>geosparql.owl</string>
+        </filenames>
+        <filePath>/1007/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

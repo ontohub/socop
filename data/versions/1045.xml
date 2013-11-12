@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1045</accessedResource>
+  <accessDate>2013-11-12 15:34:19.284 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10048</id>
+        <ontologyId>1045</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-07-25 14:16:20.0 PDT</dateCreated>
+        <dateReleased>2012-12-12 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ODP scaling Pattern</displayLabel>
+        <description>Fomal pattern for the notion of scale - which refers to the ratio of the&#xd;
+depicted size of a feature on a cartographic map relative to its actual size. Scale is at the core of cartography and essential for the visualization of geo-information in maps.</description>
+        <abbreviation>ODP-Scale</abbreviation>
+        <format>OWL</format>
+        <contactName>Simon Scheider</contactName>
+        <contactEmail>simonscheider@web.de</contactEmail>
+        <homepage>http://irtg.ifgi.de/post-docs/dr-simon-scheider/</homepage>
+        <documentation>http://knoesis.wright.edu/pascal/resources/publications/odp-carto-scaling-TR.pdf</documentation>
+        <publication>http://www.geographicknowledge.de/pub.php</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>Scaling Pattern.owl</string>
+        </filenames>
+        <filePath>/1045/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

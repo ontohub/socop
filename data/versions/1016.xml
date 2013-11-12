@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1016</accessedResource>
+  <accessDate>2013-11-12 15:34:09.408 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10016</id>
+        <ontologyId>1016</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 13:15:20.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19111:2003 Geographic Information - Spatial Referencing by Coordinates</displayLabel>
+        <abbreviation>ISO19111</abbreviation>
+        <format>OWL</format>
+        <contactName>Akm Saiful Islam, Bora Beran, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>iso-19111.owl</string>
+        </filenames>
+        <filePath>/1016/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

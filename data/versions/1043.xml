@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1043</accessedResource>
+  <accessDate>2013-11-12 15:34:18.480 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10046</id>
+        <ontologyId>1043</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2013-07-25 13:27:13.0 PDT</dateCreated>
+        <dateReleased>2012-02-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ODP #   Movement  and  Path ontology</displayLabel>
+        <description>This is a geospatial instantation of the generic Movement and Path pattern created at GeoVoCampSB2012.;&#xd;
+	dc:title &quot;Spatial Motions and Paths&quot; .&#xd;
+</description>
+        <abbreviation>ODP-MP</abbreviation>
+        <format>OWL</format>
+        <contactName>Dave Kolas</contactName>
+        <contactEmail>dkolas@bbn.com</contactEmail>
+        <homepage>SOCoP.org</homepage>
+        <documentation>http://vocamp.org/wiki/GeoVoCampSB2012</documentation>
+        <publication>http://vocamp.org/wiki/GeoVoCampSB2012</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>motion and path.owl</string>
+        </filenames>
+        <filePath>/1043/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

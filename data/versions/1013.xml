@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1013</accessedResource>
+  <accessDate>2013-11-12 15:34:08.200 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10013</id>
+        <ontologyId>1013</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-01-15 13:01:23.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19108:2002 Geographic Information - Temporal Schema</displayLabel>
+        <abbreviation>ISO19108</abbreviation>
+        <format>OWL</format>
+        <contactName>Akm Saiful Islam, Bora Beran, Luis Bermudez, Stephane Fellah, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>iso-19108.owl</string>
+        </filenames>
+        <filePath>/1013/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

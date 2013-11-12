@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1029</accessedResource>
+  <accessDate>2013-11-12 15:34:14.670 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10030</id>
+        <ontologyId>1029</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-05-29 15:21:40.0 PDT</dateCreated>
+        <dateReleased>2012-05-29 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Meteor Crater Ontology</displayLabel>
+        <description>An example of instance data using the US Topographic ontology.  This file describes the feature Meteor Crater in Arizona and the features that are nearby.</description>
+        <abbreviation>MC</abbreviation>
+        <format>OWL</format>
+        <contactName>Dalia Varanka</contactName>
+        <contactEmail>dvaranka@usgs.gov</contactEmail>
+        <homepage>cegis.usgs.gov</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>meteorCrater.n3</string>
+        </filenames>
+        <filePath>/1029/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

@@ -1,0 +1,760 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2012/8/NLCD2001.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/ontologies/2012/8/NLCD2001.owl">
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Agricultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barren"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barren_Land"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cultivated_Crops"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deciduous_Forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developed_High_Intensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developed_Low_Intensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developed_Medium_Intensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developed_Open_Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evergreen_Forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grassland_Herbaceous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Land_Cover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mixed_Forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Open_Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pasture/Hay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shrub/Scrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shrub_Scrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_Snow_Ice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wetlands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Woody_Wetlands"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Agricultural"/>
+        <Class IRI="#Land_Cover"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barren"/>
+        <Class IRI="#Land_Cover"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Barren"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Agricultural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Forest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Developed"/>
+        <Class IRI="#Land_Cover"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Developed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Developed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Developed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Developed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+        <Class IRI="#Wetlands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evergreen_Forest"/>
+        <Class IRI="#Forest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forest"/>
+        <Class IRI="#Land_Cover"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grassland/Herbaceous"/>
+        <Class IRI="#Grassland_Herbaceous"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grassland_Herbaceous"/>
+        <Class IRI="#Land_Cover"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mixed_Forest"/>
+        <Class IRI="#Forest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Open_Water"/>
+        <Class IRI="#Water_Snow_Ice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pasture/Hay"/>
+        <Class IRI="#Agricultural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perennial_Ice/Snow"/>
+        <Class IRI="#Water_Snow_Ice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shrub/Scrub"/>
+        <Class IRI="#Shrub_Scrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shrub_Scrub"/>
+        <Class IRI="#Land_Cover"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_Snow_Ice"/>
+        <Class IRI="#Land_Cover"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wetlands"/>
+        <Class IRI="#Land_Cover"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Woody_Wetlands"/>
+        <Class IRI="#Wetlands"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Cultivated_Crops"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Deciduous_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Developed_High_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Developed_Low_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Developed_Medium_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Developed_Open_Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Evergreen_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barren_Land"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Deciduous_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Developed_High_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Developed_Low_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Developed_Medium_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Developed_Open_Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Evergreen_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cultivated_Crops"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Developed_High_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Developed_Low_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Developed_Medium_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Developed_Open_Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Evergreen_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deciduous_Forest"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Developed_Low_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Developed_Medium_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Developed_Open_Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Evergreen_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_High_Intensity"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Developed_Medium_Intensity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Developed_Open_Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Evergreen_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Low_Intensity"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Developed_Open_Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Evergreen_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Medium_Intensity"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Evergreen_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developed_Open_Space"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+        <Class IRI="#Evergreen_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emergent_Herbaceous_Wetlands"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evergreen_Forest"/>
+        <Class IRI="#Grassland/Herbaceous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evergreen_Forest"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evergreen_Forest"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evergreen_Forest"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evergreen_Forest"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evergreen_Forest"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evergreen_Forest"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Grassland/Herbaceous"/>
+        <Class IRI="#Mixed_Forest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Grassland/Herbaceous"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Grassland/Herbaceous"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Grassland/Herbaceous"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Grassland/Herbaceous"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Grassland/Herbaceous"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mixed_Forest"/>
+        <Class IRI="#Open_Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mixed_Forest"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mixed_Forest"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mixed_Forest"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mixed_Forest"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Open_Water"/>
+        <Class IRI="#Pasture/Hay"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Open_Water"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Open_Water"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Open_Water"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Pasture/Hay"/>
+        <Class IRI="#Perennial_Ice/Snow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Pasture/Hay"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Pasture/Hay"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Perennial_Ice/Snow"/>
+        <Class IRI="#Shrub/Scrub"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Perennial_Ice/Snow"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Shrub/Scrub"/>
+        <Class IRI="#Woody_Wetlands"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Barren_Land</IRI>
+        <Literal datatypeIRI="&rdfs;Literal"> Barren areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cultivated_Crops</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20 percent of total vegetation. This class also includes all land being actively tilled. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Deciduous_Forest</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species shed foliage simultaneously in response to seasonal change.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Developed_High_Intensity</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Includes highly developed areas where people reside or work in high numbers. Examples include apartment complexes, row houses and commercial/industrial. Impervious surfaces account for 80 to100 percent of the total cover.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Developed_Low_Intensity</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 20-49 percent of total cover. These areas most commonly include single-family housing units.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Developed_Medium_Intensity</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Includes areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50-79 percent of the total cover. These areas most commonly include single-family housing units.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Developed_Open_Space</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Includes areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses. Impervious surfaces account for less than 20 percent of total cover. These areas most commonly include large-lot single-family housing units, parks, golf courses, and vegetation planted in developed settings for recreation, erosion control, or aesthetic purposes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergent_Herbaceous_Wetlands</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Areas where perennial herbaceous vegetation accounts for greater than 80 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Evergreen_Forest</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75 percent of the tree species maintain their leaves all year. Canopy is never without green foliage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Grassland/Herbaceous</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Areas dominated by grammanoid or herbaceous vegetation, generally greater than 80% of total vegetation. These areas are not subject to intensive management such as tilling, but can be utilized for grazing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mixed_Forest</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. Neither deciduous nor evergreen species are greater than 75 percent of total tree cover.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Open_Water</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">All areas of open water, generally with less than 25% cover of vegetation or soil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pasture/Hay</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20 percent of total vegetation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Perennial_Ice/Snow</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">All areas characterized by a perennial cover of ice and/or snow, generally greater than 25% of total cover.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shrub/Scrub</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Woody_Wetlands</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Areas where forest or shrubland vegetation accounts for greater than 20 percent of vegetative cover and the soil or substrate is periodically saturated with or covered with water.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+

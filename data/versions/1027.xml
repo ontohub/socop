@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1027</accessedResource>
+  <accessDate>2013-11-12 15:34:13.858 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10028</id>
+        <ontologyId>1027</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>v1.2 </versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-02-22 07:52:52.0 PST</dateCreated>
+        <dateReleased>2008-03-26 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Geoconcepts ontology Lite</displayLabel>
+        <description>Simple,lite geometry, geo features and relations</description>
+        <abbreviation>GeOC</abbreviation>
+        <format>OWL</format>
+        <contactName>Gary Berg-Cross for Javier Ruiz </contactName>
+        <contactEmail>gbergcross@gmail.com</contactEmail>
+        <documentation>http://www.geospatialmeaning.eu/geo-ontologies-survey/GeoConcepts/GeoConcepts_v1.1_20080301Lite.owl#</documentation>
+        <publication>http://www.geospatialmeaning.eu/geo-ontologies-survey/GeoConcepts/GeoConcepts_v1.1_20080301Lite.owl</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>GeoConcepts_1.1_20080301Lite.owl</string>
+        </filenames>
+        <filePath>/1027/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

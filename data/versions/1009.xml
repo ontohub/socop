@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1009</accessedResource>
+  <accessDate>2013-11-12 15:34:06.605 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10009</id>
+        <ontologyId>1009</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>version 2.0</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-12-02 00:00:00.0 PST</dateCreated>
+        <dateReleased>2004-08-27 00:00:00.0 PDT</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>ISO 19107:2003 Geographic Information - Spatial Schema</displayLabel>
+        <abbreviation>ISO19107</abbreviation>
+        <format>OWL</format>
+        <contactName>Bora Beran, Akm Saiful Islam, Volkan Yargici, Stephane Fellah, Michael Piasecki</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>iso19107.owl</string>
+        </filenames>
+        <filePath>/1009/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

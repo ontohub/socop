@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1028</accessedResource>
+  <accessDate>2013-11-12 15:34:14.256 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10029</id>
+        <ontologyId>1028</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.55</versionNumber>
+        <versionStatus>beta</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>4</statusId>
+        <dateCreated>2012-04-04 12:46:28.0 PDT</dateCreated>
+        <dateReleased>2004-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>SUMO</displayLabel>
+        <description>Suggested Upper Merged Ontology) developed within the IEEE Standard Upper Ontology Working Group. The goal was to develop a standard ontology that will promote data interoperability, information search and retrieval, automated inferencing, and natural language processing. </description>
+        <abbreviation>SUMO</abbreviation>
+        <format>OWL</format>
+        <contactName>Adam Pease</contactName>
+        <contactEmail>apease@articulatesoftware.com</contactEmail>
+        <homepage>http://www.adampease.org/professional/</homepage>
+        <documentation>http://www.ontologyportal.org/</documentation>
+        <publication>http://www.ontologyportal.org/</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>SUMO.owl.txt</string>
+        </filenames>
+        <filePath>/1028/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

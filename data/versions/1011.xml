@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1011</accessedResource>
+  <accessDate>2013-11-12 15:34:07.397 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10011</id>
+        <ontologyId>1011</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>3.22</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-12-02 00:00:00.0 PST</dateCreated>
+        <dateReleased>2011-12-02 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>DOLCE+DnS Ultralite</displayLabel>
+        <description>Created by Aldo Gangemi as both a simplification and extension of DOLCE and Descriptions and Situations ontologies.This is a simplification of some parts of the DOLCE Lite-Plus library (cf. http://www.loa-cnr.it/ontologies/DLP397.owl).</description>
+        <abbreviation>DUL</abbreviation>
+        <format>OWL</format>
+        <contactName>Aldo Gangemi</contactName>
+        <contactEmail>mdean@bbn.com</contactEmail>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7001</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>dul.owl</string>
+        </filenames>
+        <filePath>/1011/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

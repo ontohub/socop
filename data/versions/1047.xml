@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1047</accessedResource>
+  <accessDate>2013-11-12 15:34:20.83 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10050</id>
+        <ontologyId>1047</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.0</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-07-25 14:29:25.0 PDT</dateCreated>
+        <dateReleased>2012-11-30 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Terrain Surface Networks</displayLabel>
+        <description>This ontology, created as a product of the November 2012 Spatial Ontology Community of Practice GeoVoCamp,  is an extension of SurfaceNetworks where the surface in question is the terrain of the Earth.  As such it links to GeoSPARQL for representiing the geometries of the various types, and adds elevation as a specialization of surfaceValue.&quot;&quot;&quot;@</description>
+        <abbreviation>Terrain-SN</abbreviation>
+        <format>OWL</format>
+        <contactName>Gaurav Sinha</contactName>
+        <contactEmail>sinhag@ohio.edu</contactEmail>
+        <homepage>www.ohio.edu/people/sinhag/â&#x80;&#x8e;</homepage>
+        <documentation>http://ontolog.cim3.net/cgi-bin/wiki.pl?SocopWorkshops/Socop2012Workshop</documentation>
+        <publication>http://ontolog.cim3.net/file/work/SOCoP/Workshops/SOCoP-Workshop-2012-12-29/Cayley-Maxwell%20Theory%20of%20Surface%20Networks-1.pptx</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>TerrainSurfaceNetwork.owl</string>
+        </filenames>
+        <filePath>/1047/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

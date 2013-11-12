@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1044</accessedResource>
+  <accessDate>2013-11-12 15:34:18.885 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10047</id>
+        <ontologyId>1044</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>1.o</versionNumber>
+        <versionStatus>alpha</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-07-25 13:56:27.0 PDT</dateCreated>
+        <dateReleased>2012-11-30 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Multi Surface Network</displayLabel>
+        <description>The base (SurfaceNetworks) ontology is based on the Cayley/Maxwell theory of surface networks (see Cayley, Arthur. \&quot;XL. On contour and slope lines.\&quot; The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science 18.120 (1859): 264-268., and Maxwell, J. Clerk. \&quot;L. On hills and dales.\&quot; (1870): 421-427.) as applied to topography.</description>
+        <abbreviation>MSN</abbreviation>
+        <format>OWL</format>
+        <contactName>Dave Kolas</contactName>
+        <contactEmail>dkolas@bbn.com</contactEmail>
+        <homepage>SOCoP.org</homepage>
+        <documentation>http://ontolog.cim3.net/cgi-bin/wiki.pl?SocopWorkshops/Socop2012Workshop</documentation>
+        <publication>http://ontolog.cim3.net/cgi-bin/wiki.pl?SocopWorkshops/Socop2012Workshop</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>MultiSurfaceNetwork.owl</string>
+        </filenames>
+        <filePath>/1044/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

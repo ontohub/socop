@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1037</accessedResource>
+  <accessDate>2013-11-12 15:34:17.682 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10044</id>
+        <ontologyId>1037</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>12</userId>
+        <versionNumber>Version 0.01</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-04-16 08:39:03.0 PDT</dateCreated>
+        <dateReleased>2004-02-20 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>GeoFeatures</displayLabel>
+        <description>This ontology contains geographic feature classes and associated properties including classes and properties for describing the spatial location of the geographic feature. The classes and properties have been defined based on an ESRI dataset.</description>
+        <abbreviation>GeoF</abbreviation>
+        <format>OWL</format>
+        <contactName>Femke Reistma</contactName>
+        <contactEmail>femke.reitsma@canterbury.ac.nz</contactEmail>
+        <homepage>http://www.geog.canterbury.ac.nz/department/staff/femker.shtml</homepage>
+        <documentation>http://lov.okfn.org/dataset/lov/details/vocabulary_geof.html</documentation>
+        <publication>http://lov.okfn.org/dataset/lov/details/vocabulary_geof.html</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>7008</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>geoFeatures20040307.owl</string>
+        </filenames>
+        <filePath>/1037/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

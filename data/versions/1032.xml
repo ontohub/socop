@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1032</accessedResource>
+  <accessDate>2013-11-12 15:34:16.76 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10035</id>
+        <ontologyId>1032</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>14</userId>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-10 18:32:06.0 PDT</dateCreated>
+        <dateReleased>1991-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Land Use Land Cover</displayLabel>
+        <description>USGS Land Use and Land Cover classification.</description>
+        <abbreviation>LULC</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <homepage>http://sagemap.wr.usgs.gov/ftp/n_dakota/NDGS/1_250_LULC.htm</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>LULC.owl</string>
+        </filenames>
+        <filePath>/1032/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10036</id>
+        <ontologyId>1032</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>2</internalVersionNumber>
+        <userId>14</userId>
+        <versionNumber>unknown</versionNumber>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-10 18:37:33.0 PDT</dateCreated>
+        <dateReleased>1991-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Land Use Land Cover</displayLabel>
+        <description>USGS Land Use and Land Cover classification.</description>
+        <abbreviation>LULC</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <homepage>http://sagemap.wr.usgs.gov/ftp/n_dakota/NDGS/1_250_LULC.htm</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>LULC.owl</string>
+        </filenames>
+        <filePath>/1032/2</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>10040</id>
+        <ontologyId>1032</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>3</internalVersionNumber>
+        <userId>14</userId>
+        <versionNumber>unknown</versionNumber>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-09-12 07:46:57.0 PDT</dateCreated>
+        <dateReleased>1991-01-01 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Land Use Land Cover</displayLabel>
+        <description>USGS Land Use and Land Cover classification.</description>
+        <abbreviation>LULC</abbreviation>
+        <format>OWL</format>
+        <contactName>USGS</contactName>
+        <contactEmail>njzhou@umd.edu</contactEmail>
+        <homepage>http://sagemap.wr.usgs.gov/ftp/n_dakota/NDGS/1_250_LULC.htm</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>USGSLULC.owl</string>
+        </filenames>
+        <filePath>/1032/3</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

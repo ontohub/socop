@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1050</accessedResource>
+  <accessDate>2013-11-12 15:34:21.286 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10053</id>
+        <ontologyId>1050</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>25</userId>
+        <versionNumber>201211</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2013-10-16 16:07:57.0 PDT</dateCreated>
+        <dateReleased>2013-02-04 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>IUGS CGI Consolidation Degree Term Vocabulary</displayLabel>
+        <description>This file contains the 201211 version of CGI Consolidation degree vocabulary. Use for specifying degree of consolidation of compound material, distinguishes rock from unconsolidated material.</description>
+        <abbreviation>consoldeg</abbreviation>
+        <format>OWL</format>
+        <contactName>Stephen M Richard</contactName>
+        <contactEmail>steve.richard@azgs.az.gov</contactEmail>
+        <homepage>http://resource.geosciml.org/</homepage>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>ConsolidationDegree201211.rdf</string>
+        </filenames>
+        <filePath>/1050/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>

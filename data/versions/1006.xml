@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<success>
+  <accessedResource>/bioportal/ontologies/versions/1006</accessedResource>
+  <accessDate>2013-11-12 15:34:05.403 PST</accessDate>
+  <data>
+    <list>
+      <ontologyBean>
+        <id>10006</id>
+        <ontologyId>1006</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userId>11</userId>
+        <versionNumber>version 1.0</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>0</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2011-09-19 00:00:00.0 PDT</dateCreated>
+        <dateReleased>2010-03-14 00:00:00.0 PST</dateReleased>
+        <isManual>1</isManual>
+        <displayLabel>Use Case Description Ontology</displayLabel>
+        <description>Use Case Description Ontology (UCDO). Use cases are a commonly used technique for specifying the functional requirements of a project. This ontology is concerned with the formal representation of the flow of events that occurs in a use case, including alternative flows and exceptional flows. Nonfunctional requirements are specified separately.</description>
+        <abbreviation>UCDO</abbreviation>
+        <format>OWL</format>
+        <contactName>Ken Baclawski</contactName>
+        <contactEmail>Ken@Baclawski.com</contactEmail>
+        <homepage>http://www.ccs.neu.edu/home/kenb/ontologies/</homepage>
+        <documentation>http://www.ccs.neu.edu/home/kenb/ontologies/</documentation>
+        <publication>http://www.ccs.neu.edu/home/kenb/ontologies/</publication>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds/>
+        <groupIds/>
+        <filenames>
+          <string>ucdo.owl</string>
+        </filenames>
+        <filePath>/1006/1</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+    </list>
+  </data>
+</success>
