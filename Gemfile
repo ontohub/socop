@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'nokogiri'
-gem 'activesupport', '~> 4.0'
+gem 'activerecord', '~> 4.0'
+gem 'activeresource', '~> 4.0'

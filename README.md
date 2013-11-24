@@ -16,6 +16,13 @@ Installation
     cd socop_importer
     bundle install
 
+Configuration
+-------------
+
+Copy the `config.yml.sample` to `config.yml` and fill in your credentials.
+
+    cp config.yml.sample config.yml
+
 Usage
 -----
 
@@ -27,4 +34,8 @@ Create a repository with all downloaded submissions:
 
     Socop.import_all
 
-Now you can find the repository in ./workspace/.git
+Now you can find the repository in `./workspace/.git`
+
+After pushing the repository to Ontohub you can update the ontologies metadata at Ontohub:
+
+    Ontohub::API.instance.update_metadata

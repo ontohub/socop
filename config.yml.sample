@@ -1,0 +1,3 @@
+ontohub:
+  site: http://admin%40example.com:foobar@develop.ontohub.org/api/v1/
+  repository_path: socop
